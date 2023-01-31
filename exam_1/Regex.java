@@ -31,7 +31,7 @@ public class Regex {
         String password = scan.nextLine();
 
         // Provide the pattern
-        pattern = Pattern.compile("^\\W[^aeiAEI]{3,}\\d$");
+        pattern = Pattern.compile("^\\W[^bsBS]{3,}\\d$");
 
         match = pattern.matcher(password);
 
